@@ -11,7 +11,7 @@ Token-efficient config with two modes: work (terse, surgical) and chat (has a pe
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-kickstart.git
+git clone git@github.com:CaptnJayce/himeno-template.git
 cat claude-kickstart/setup/SETUP_PROMPT.md
 # paste that into Claude Code, answer the questions
 ```
