@@ -30,12 +30,26 @@ claude-kickstart/
 │   └── modes/
 │       ├── work.md          # work mode rules
 │       └── chat.md          # chat mode rules
+├── commands/
+│   ├── work.md              # /work command — force work mode
+│   └── chat.md              # /chat command — force chat mode
 ├── personalities/
 │   ├── PERSONALITY_GUIDE.md # how to make your own
 │   └── examples/
 │       └── himeno-full.md   # expanded reference
-└── skills/                  # add-ons go here
+└── examples/
+    └── CLAUDE.example.md    # filled-in example
 ```
+
+## Installing the commands
+
+Copy the `commands/` folder to `~/.claude/commands/` so `/work` and `/chat` work as overrides:
+
+```bash
+cp -r claude-kickstart/commands/* ~/.claude/commands/
+```
+
+Then in any conversation, `/work` locks you into terse coding mode and `/chat` opens up the personality. Both switch back to auto-detection on the next session.
 
 ## About Himeno
 
