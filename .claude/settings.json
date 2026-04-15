@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:developer.mozilla.org)",
+      "WebFetch(domain:docs.npmjs.com)",
+      "WebFetch(domain:nodejs.org)",
+      "WebFetch(domain:pypi.org)",
+      "WebFetch(domain:docs.python.org)",
+      "WebFetch(domain:stackoverflow.com)",
+      "WebFetch(domain:crates.io)",
+      "WebFetch(domain:docs.rs)"
+    ],
+    "deny": [
+      "Bash(rm -rf*)",
+      "Bash(sudo *)",
+      "Bash(git push*)",
+      "Bash(git push --force*)",
+      "Bash(chmod 777*)",
+      "Bash(curl * | bash*)",
+      "Bash(wget * | bash*)",
+      "Bash(:(){ :|:& };:*)"
+    ]
+  }
+}
