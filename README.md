@@ -51,3 +51,9 @@ You can add your own allow/deny rules in `~/.claude/settings.json` after install
 ## Customising
 
 Edit `~/.claude/CLAUDE.md` to shape the personality to your preferences. The base template is intentionally minimal — it's a starting point, not a prescription.
+
+## Roadmap
+
+- [ ] `{USER}` memory — persistent facts about who the user is, how they work, and what they prefer
+- [ ] Project memory — per-project context, goals, and decisions that carry across sessions
+- [ ] Conversation memory — summary of recent sessions to maintain continuity
