@@ -46,6 +46,8 @@ Review the current working state, write a good commit message, and create the co
    )"
    ```
 
+   Do not add a `Co-Authored-By: Claude` trailer unless the user explicitly asks for it.
+
 7. Confirm success with `git status` after the commit.
 
 ## Rules

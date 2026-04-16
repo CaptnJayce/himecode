@@ -25,7 +25,7 @@ The `settings.json` is included in `.claude/` and will be copied to `~/.claude/s
 **Commands:**
 - `/caveman` — ultra-compressed low-token mode with intensity levels (lite / full / ultra / wenyan variants). Credit: [JuliusBrussee](https://github.com/JuliusBrussee/caveman)
 - `/humanizer` — strips AI writing patterns from text and rewrites it to sound human. Credit: [blader](https://github.com/blader/humanizer)
-- `/commit` — reviews your diff, stages relevant files, and writes a good commit message
+- `/commit` — reviews your diff, stages relevant files, and writes a good commit message. No `Co-Authored-By: Claude` trailer unless you ask for it.
 - `/make-skill` — describe a command and get a working skill file dropped into `~/.claude/commands/`
 
 **`settings.json`** — Pre-configured permissions so Claude can work without constant approval prompts.
