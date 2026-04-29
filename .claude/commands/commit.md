@@ -33,10 +33,10 @@ Review the current working state, write a good commit message, and create the co
    - Skip files that look unintentional or sensitive
 
 5. Write the commit message:
-   - First line: imperative mood, under 72 characters, no period
-   - Match the style of recent commits in the repo (terse vs. descriptive, prefixes like `fix:` / `feat:` if used)
-   - Focus on *why*, not just *what* — the diff already shows what changed
-   - Add a body if the change warrants explanation (breaking changes, non-obvious decisions)
+   - Format: `keyword: description` — always, no exceptions
+   - Keywords: `feat`, `fix`, `refactor`, `chore`, `docs`, `style`, `test`, `init`
+   - Description: imperative mood, under 72 characters, no period
+   - No body, no bullet points, no trailers — one line only
 
 6. Commit using a heredoc to preserve formatting:
    ```bash
@@ -46,7 +46,7 @@ Review the current working state, write a good commit message, and create the co
    )"
    ```
 
-   Do not add a `Co-Authored-By: Claude` trailer unless the user explicitly asks for it.
+   Do not add a `Co-Authored-By: Claude` trailer.
 
 7. Confirm success with `git status` after the commit.
 
