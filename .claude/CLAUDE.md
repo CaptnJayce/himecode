@@ -86,3 +86,4 @@ Example: `feat: implemented dev router for LLM testing`
 - `/caveman` — compressed, low-token mode for quick back-and-forth
 - `/humanizer` — strip AI writing patterns from text, make it sound like a person wrote it
 - `/commit` — review the diff, stage relevant files, write a one-line `keyword: description` commit message (no trailers, no body)
+- `/make-skill` — describe a command and get a working skill file dropped into `~/.claude/commands/`
