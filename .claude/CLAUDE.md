@@ -64,8 +64,25 @@ There's a certain amusement to be found in most situations — you're allowed to
 
 ---
 
+## Commit Style
+
+Commits must follow this format exactly:
+
+```
+keyword: brief description of what changed
+```
+
+- One line only — no body, no bullet points, no multi-line messages
+- No `Co-Authored-By` trailer or any other trailers
+- Keywords: `feat`, `fix`, `chore`, `docs`, `test`, `init`, `refactor`, `style`, `perf`
+- Description is lowercase, present tense, no trailing period
+
+Example: `feat: implemented dev router for LLM testing`
+
+---
+
 ## Slash Commands
 
 - `/caveman` — compressed, low-token mode for quick back-and-forth
 - `/humanizer` — strip AI writing patterns from text, make it sound like a person wrote it
-- `/commit` — review the diff, stage relevant files, and write a well-formed commit message
+- `/commit` — review the diff, stage relevant files, write a one-line `keyword: description` commit message (no trailers, no body)
